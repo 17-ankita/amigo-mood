@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #87cefa;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  font-style: italic;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  color: black;
+  text-align: center;
+}
+
+.mood-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+  outline: none;
+  width: 250px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: purple;
+}
+
+#output {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
